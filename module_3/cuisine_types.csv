@@ -1,0 +1,127 @@
+Cuisine Style,cuisine_type
+Vegetarian Friendly,Healthy
+European,European
+unknown,unknown
+Mediterranean,Seafood
+Italian,European_national
+Vegan Options,Healthy
+Gluten Free Options,Healthy
+Bar,Bar
+French,European_national
+Asian,Asian
+Pizza,European
+Spanish,European_national
+Pub,Bar
+Cafe,Fast
+Fast Food,Fast
+British,European_national
+International,Specific
+Seafood,Seafood
+Japanese,Asian
+Central European,European
+American,American
+Sushi,Asian
+Chinese,Asian
+Portuguese,European_national
+Indian,Asian
+Middle Eastern,Midle_eastern
+Thai,Asian
+Wine Bar,Bar
+German,European_national
+Healthy,Healthy
+Greek,European_national
+Halal,Midle_eastern
+Czech,European_national
+Fusion,Specific
+Steakhouse,Specific
+Barbecue,Specific
+Contemporary,Specific
+Vietnamese,Asian_national
+Eastern European,Midle_eastern
+Soups,Specific
+Grill,Specific
+Gastropub,Specific
+Mexican,American
+Turkish,Midle_eastern
+Delicatessen,Specific
+Austrian,European_national
+South American,American
+Polish,European_national
+Hungarian,European_national
+Scandinavian,European_national
+Lebanese,European_national
+Latin,American
+Diner,Specific
+Dutch,European_national
+Irish,European_national
+Belgian,European_national
+Street Food,Fast
+Brew Pub,Bar
+Swiss,European_national
+Danish,European_national
+Swedish,European_national
+Argentinean,American
+Korean,Asian
+Scottish,European_national
+African,African
+Moroccan,African
+Central American,American
+Brazilian,American
+Pakistani,Asian_national
+Peruvian,American
+Caribbean,Seafood
+Nepali,Asian_national
+Balti,Asian_national
+Bangladeshi,Asian_national
+Norwegian,European_national
+Israeli,Midle_eastern
+Slovenian,European_national
+Indonesian,Asian_national
+Russian,European_national
+Persian,Midle_eastern
+Arabic,Midle_eastern
+Kosher,Specific
+Ethiopian,African
+Venezuelan,American
+Malaysian,Asian_national
+Croatian,European_national
+Sri Lankan,Asian_national
+Jamaican,African
+Tibetan,Asian_national
+Australian,European_national
+Cuban,European_national
+Afghani,Midle_eastern
+Taiwanese,Asian_national
+Hawaiian,Seafood
+Tunisian,European_national
+Cajun & Creole,American
+Cambodian,Asian_national
+Colombian,American
+Egyptian,African
+Singaporean,Asian_national
+Ukrainian,European_national
+Southwestern,American
+Georgian,Midle_eastern
+Armenian,Midle_eastern
+Mongolian,Midle_eastern
+Filipino,Seafood
+Central Asian,Asian_national
+Minority Chinese,Asian_national
+Romanian,European_national
+Albanian,Midle_eastern
+Chilean,American
+New Zealand,European_national
+Uzbek,Midle_eastern
+Canadian,American
+Native American,American
+Caucasian,Midle_eastern
+Ecuadorean,American
+Fujian,Seafood
+Polynesian,Seafood
+Azerbaijani,Midle_eastern
+Welsh,European_national
+Salvadoran,American
+Latvian,European_national
+Yunnan,Asian_national
+Burmese,Asian_national
+Xinjiang,Asian_national
