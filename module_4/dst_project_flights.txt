@@ -1,0 +1,50 @@
+Задание 4.1
+База данных содержит список аэропортов практически всех крупных городов России. В большинстве городов есть только один аэропорт. Исключение составляет:
+
+SELECT a.city,
+       count(DISTINCT a.airport_code)
+FROM dst_project.airports a
+GROUP BY a.city
+HAVING count(DISTINCT a.airport_code) > 1
+
+Moscow
+3
+Ulyanovsk
+2
+
+Задание 4.2
+Вопрос 1. Таблица рейсов содержит всю информацию о прошлых, текущих и запланированных рейсах. Сколько всего статусов для рейсов определено в таблице?
+
+SELECT count(DISTINCT f.status)
+FROM dst_project.flights f
+
+6
+ 
+Вопрос 2. Какое количество самолетов находятся в воздухе на момент среза в базе (статус рейса «самолёт уже вылетел и находится в воздухе»).
+
+SELECT count(f.flight_id)
+FROM dst_project.flights f
+WHERE f.status = 'Departed'
+
+58
+ 
+Вопрос 3. Места определяют схему салона каждой модели. Сколько мест имеет самолет модели 777 (Boeing 777-300)?
+
+SELECT a.model,
+       count(DISTINCT s.seat_no)
+FROM dst_project.seats s
+JOIN dst_project.aircrafts a ON s.aircraft_code = a.aircraft_code
+GROUP BY a.model
+HAVING a.model = 'Boeing 777-300'
+
+402
+ 
+Вопрос 4. Сколько состоявшихся (фактических) рейсов было совершено между 1 апреля 2017 года и 1 сентября 2017 года?
+Здесь и далее состоявшийся рейс означает, что он не отменён, и самолёт прибыл в пункт назначения.
+
+SELECT count(f.flight_id)
+FROM dst_project.flights f
+WHERE f.actual_arrival BETWEEN '2017-04-01' AND '2017-09-01'
+  AND f.status = 'Arrived'
+
+74227
